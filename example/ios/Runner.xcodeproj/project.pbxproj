@@ -15,6 +15,8 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		317747F216B5046313D4D426 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693799305250CC766218509D /* Pods_RunnerTests.framework */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
+		36E598AB2CDCD54900873F27 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E598AA2CDCD54100873F27 /* ExtensionDelegate.swift */; };
+		36E598AD2CDCD58900873F27 /* InterfaceContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E598AC2CDCD58200873F27 /* InterfaceContoller.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -78,6 +80,8 @@
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E598AA2CDCD54100873F27 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		36E598AC2CDCD58200873F27 /* InterfaceContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceContoller.swift; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		5D1056C6AF427A7B49B747B5 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		5EFE4FA2357863A21AFABCBD /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 		0D989A572BF7EC5000757EFC /* workoutExample Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				36E598AC2CDCD58200873F27 /* InterfaceContoller.swift */,
+				36E598AA2CDCD54100873F27 /* ExtensionDelegate.swift */,
 				0D26DCBF2CACF821002F43A2 /* workoutExample-Watch-App-Info.plist */,
 				0D989A692BF7F44D00757EFC /* workoutExample Watch App.entitlements */,
 				0D989A582BF7EC5000757EFC /* workoutExampleApp.swift */,
@@ -465,6 +471,8 @@
 			files = (
 				0D989A5B2BF7EC5000757EFC /* ContentView.swift in Sources */,
 				0D989A592BF7EC5000757EFC /* workoutExampleApp.swift in Sources */,
+				36E598AD2CDCD58900873F27 /* InterfaceContoller.swift in Sources */,
+				36E598AB2CDCD54900873F27 /* ExtensionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"workoutExample Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 6BUNA5JAX2;
+				DEVELOPMENT_TEAM = GZGF5TZ37Y;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -543,7 +551,7 @@
 				INFOPLIST_FILE = "workoutExample-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = workoutExample;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.rexios.workoutExample;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.rexios.workoutExampleaa;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,7 +560,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExample.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExampleaa.watchkitappaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -580,7 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"workoutExample Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 6BUNA5JAX2;
+				DEVELOPMENT_TEAM = GZGF5TZ37Y;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -588,7 +596,7 @@
 				INFOPLIST_FILE = "workoutExample-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = workoutExample;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.rexios.workoutExample;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.rexios.workoutExampleaa;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,7 +604,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExample.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExampleaa.watchkitappaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -623,7 +631,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"workoutExample Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 6BUNA5JAX2;
+				DEVELOPMENT_TEAM = GZGF5TZ37Y;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -631,7 +639,7 @@
 				INFOPLIST_FILE = "workoutExample-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = workoutExample;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.rexios.workoutExample;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.rexios.workoutExampleaa;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,7 +647,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExample.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExampleaa.watchkitappaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -713,7 +721,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 6BUNA5JAX2;
+				DEVELOPMENT_TEAM = GZGF5TZ37Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -721,7 +729,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExample;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExampleaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -901,7 +909,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 6BUNA5JAX2;
+				DEVELOPMENT_TEAM = GZGF5TZ37Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -909,7 +917,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExample;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExampleaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -927,7 +935,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 6BUNA5JAX2;
+				DEVELOPMENT_TEAM = GZGF5TZ37Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -935,7 +943,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExample;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rexios.workoutExampleaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
